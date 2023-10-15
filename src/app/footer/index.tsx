@@ -3,7 +3,7 @@ export function Footer () {
   return (
     <footer className="bg-black p-6 grid grid-cols-2 md:px-8 lg:px-36">
       <div className="flex items-center text-white font-semibold">
-        <ul className="flex flex-col gap-4 lg:flex-row md:gap-12">
+        <ul className="flex flex-col gap-4 lg:flex-row md:gap-12 [&>*]:cursor-pointer">
           <li>Home</li>
           <li>About</li>
           <li>Menu</li>

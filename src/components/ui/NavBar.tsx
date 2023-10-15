@@ -1,15 +1,6 @@
-"use client";
 import Image from "next/image";
-import { isMobile } from "@/utils/isMobile";
-import { useState, useEffect } from "react";
 
 export function NavBar() {
-  const [userOnMobile, setUserOnMobile] = useState<Boolean>(false);
-
-  useEffect(() => {
-    const mobile = isMobile();
-    setUserOnMobile(mobile);
-  }, [userOnMobile]);
 
   return (
     <div className="h-[42px] bg-black text-white w-full fixed z-30">
@@ -25,7 +16,7 @@ export function NavBar() {
       {/* Desktop */}
       <nav className="sm:justify-between sm:items-center sm:px-9 sm:w-full hidden sm:flex sm:h-full">
         <p className="font-bold text-2xl">Bistro Sena</p>
-        <ul className="flex uppercase font-semibold gap-4">
+        <ul className="flex uppercase font-semibold gap-4 [&>*]:cursor-pointer">
           <li>Home</li>
           <li>About</li>
           <li>Specials</li>
