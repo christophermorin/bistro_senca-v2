@@ -17,7 +17,7 @@ export function Footer () {
           <Image src={"/images/facebook.svg"} alt="" width={25} height={25} />
           <Image src={"/images/x.png"} alt="" width={25} height={25} />
         </div>
-        <p className="self-end text-xs italic">&copy; 2023 Bistro Sena</p>
+        <p className="self-end text-xs italic">&copy; 2023 Bistro Senca</p>
       </div>
     </footer>
   )

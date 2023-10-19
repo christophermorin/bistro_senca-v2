@@ -21,7 +21,7 @@ export function NavBar() {
       </nav>
       {/* Desktop */}
       <nav className="sm:justify-between sm:items-center sm:px-9 sm:w-full hidden sm:flex sm:h-full">
-        <p className="font-bold text-2xl">Bistro Sena</p>
+        <p className="font-bold text-2xl">Bistro Senca</p>
         <ul className="flex uppercase font-semibold gap-4 [&>*]:cursor-pointer">
           <li id="homeLink">Home</li>
           <li id="aboutLink">About</li>

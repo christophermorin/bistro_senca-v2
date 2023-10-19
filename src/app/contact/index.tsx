@@ -7,7 +7,7 @@ export function Contact() {
         <div className="bg-black h-full p-2 rounded-md shadow-md shadow-black md:px-12">
           {/* One col two sections */}
           <div className="flex flex-col h-full text-white">
-            <h4 className="font-bold uppercase md:text-center md:text-xl">Bistro Senna</h4>
+            <h4 className="font-bold uppercase md:text-center md:text-xl">Bistro Senca</h4>
             <ul className="grid grid-cols-1 text-white h-full md:gap-32">
               <div className="flex flex-col justify-around md:justify-between">
                 <li className="flex items-center">

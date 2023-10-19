@@ -12,14 +12,14 @@ export function Reviews() {
       <ReviewCard>
         <ReviewCardTitle>Hidden Gems...</ReviewCardTitle>
         <ReviewCardBody>
-          A hidden gem in the heart of the city, Bistro Senna exceeded all my expectations. The food was a culinary journey around the world, and every dish we ordered was a delight to the senses.
+          A hidden gem in the heart of the city, Bistro Senca exceeded all my expectations. The food was a culinary journey around the world, and every dish we ordered was a delight to the senses.
         </ReviewCardBody>
         <ReviewCardAuthor>Aziz Light</ReviewCardAuthor>
       </ReviewCard>
       <ReviewCard>
         <ReviewCardTitle>Old friends...</ReviewCardTitle>
         <ReviewCardBody>
-         What a delightful find! Bistro Senna felt like a warm hug in the form of a restaurant. The staff here are like old friends, always ready with a smile and a recommendation. I can't wait to make Bistro Senna my regular spot for special nights out.
+         What a delightful find! Bistro Senca felt like a warm hug in the form of a restaurant. The staff here are like old friends, always ready with a smile and a recommendation. I can't wait to make Bistro Senca my regular spot for special nights out.
         </ReviewCardBody>
         <ReviewCardAuthor>Nuaght Marvin</ReviewCardAuthor>
       </ReviewCard>
