@@ -15,17 +15,17 @@ export function Contact() {
                   <p>123.456.789</p>
                 </li>
                 <li className="flex items-center">
-                  <Image src={"/images/location.svg"} alt="Location" width={25} height={20} className="mr-2"/>
+                  <Image src={"/images/location.svg"} alt="Location" width={30} height={20} className="mr-2"/>
                   <p>4211 Street McStreet, NE 0101</p>
                 </li>
               </div>
               <div className="flex flex-col justify-around md:justify-between md:col-start-3 md:gap-10">
                 <li className="flex items-center">
-                  <Image src={"/images/email.svg"} alt="Email" width={25} height={20} className="mr-2"/>
+                  <Image src={"/images/email.svg"} alt="Email" width={20} height={20} className="mr-2"/>
                   <p>bsenna@mail.com</p>
                 </li>
                 <li className="flex items-center">
-                  <Image src={"/images/pointer.svg"} alt="Directions" width={25} height={20} className="mr-2"/>
+                  <Image src={"/images/pointer.svg"} alt="Directions" width={20} height={20} className="mr-2"/>
                   <p>Get directions</p>
                 </li>
               </div>
