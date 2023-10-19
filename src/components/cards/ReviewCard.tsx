@@ -14,7 +14,7 @@ export const ReviewCard: React.FC<ReviewCardProps> = ({
     <div
       className={clsx(
         "grid grid-cols-1 justify-items-center gap-6 py-9  bg-black rounded-md shadow-md shadow-black text-white z-20",
-        className
+        className,
       )}
     >
       {children}

@@ -1,11 +1,11 @@
-"use client"
-import {useEffect} from "react";
+"use client";
+import { useEffect } from "react";
 import Image from "next/image";
 import { scrollBehavior } from "@/utils/scrollBehavior";
 
 export function NavBar() {
-   useEffect(() => {
-    scrollBehavior()
+  useEffect(() => {
+    scrollBehavior();
   }, []);
 
   return (

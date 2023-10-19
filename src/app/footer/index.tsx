@@ -1,7 +1,10 @@
-import Image from "next/image"
-export function Footer () {
+import Image from "next/image";
+export function Footer() {
   return (
-    <footer data-testid="footer" className="bg-black p-6 grid grid-cols-2 md:px-8 lg:px-36">
+    <footer
+      data-testid="footer"
+      className="bg-black p-6 grid grid-cols-2 md:px-8 lg:px-36"
+    >
       <div className="flex items-center text-white font-semibold">
         <ul className="flex flex-col gap-4 lg:flex-row md:gap-12 [&>*]:cursor-pointer">
           <li>Home</li>
@@ -20,5 +23,5 @@ export function Footer () {
         <p className="self-end text-xs italic">&copy; 2023 Bistro Senca</p>
       </div>
     </footer>
-  )
+  );
 }
