@@ -8,7 +8,27 @@
   --background-end-rgb: 255, 255, 255;
 } */
 
-html, 
-body{
+html,
+body {
   height: 100%;
+}
+
+#menu-button {
+  display: none;
+}
+
+#menu-button:checked ~ .menu {
+  max-height: 250px;
+  transition: max-height 0.3s ease-in;
+  background: #000;
+}
+
+.menu {
+  display: -ms-grid;
+  padding-bottom: 0px;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: max-height 0.3s ease-out;
+  background: #000;
+  /* z-index: 120; */
 }

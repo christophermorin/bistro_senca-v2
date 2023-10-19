@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 export function Footer() {
   return (
@@ -20,7 +21,12 @@ export function Footer() {
           <Image src={"/images/facebook.svg"} alt="" width={25} height={25} />
           <Image src={"/images/x.png"} alt="" width={25} height={25} />
         </div>
-        <p className="self-end text-xs italic">&copy; 2023 Bistro Senca</p>
+        <Link
+          className="self-end"
+          href="https://github.com/christophermorin/bistro_senna-v2"
+        >
+          <p className="text-xs italic">&copy; 2023 Bistro Senca</p>
+        </Link>
       </div>
     </footer>
   );
