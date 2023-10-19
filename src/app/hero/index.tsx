@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <main className="bg-hero h-full bg-no-repeat bg-cover bg-center pt-[42px] relative">
+    <main id="homeSection" className="bg-hero h-full bg-no-repeat bg-cover bg-center pt-[42px] relative">
       <div className="bg-black/60 absolute h-full blur-3xl w-full z-10"></div>
       {/* <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-6 z-20"> */}
       <div className="grid grid-cols-1 h-full items-center z-20 md:grid-cols-6">

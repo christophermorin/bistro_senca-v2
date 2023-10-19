@@ -1,7 +1,7 @@
 import Image from "next/image";
 export function Contact() {
   return (
-    <section className="flex md:flex-row md:flex-wrap flex-col items-center justify-center gap-10 p-6 md:py-24 md:px-24 lg:px-32">
+    <section id="contactSection" className="flex md:flex-row md:flex-wrap flex-col items-center justify-center gap-10 p-6 md:py-24 md:px-24 lg:px-32">
       <section className="grid grid-cols-2 md:grid-cols-1">
       <div>
         <div className="bg-black h-full p-2 rounded-md shadow-md shadow-black md:px-12">

@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <div className="grid grid-cols-1 bg-about bg-no-repeat bg-cover bg-center md:bg-aboutLg md:grid-cols-6">
+    <div id="aboutSection" className="grid grid-cols-1 bg-about bg-no-repeat bg-cover bg-center md:bg-aboutLg md:grid-cols-6">
       {/* <div className="md:flex flex-wrap md:justify-around md:col-span-6"> */}
         <section className="md:col-span-2 md:col-start-2  md:py-32">
       <div className="grid justify-center mt-11 lg:mt-0 md:col-span-3 md:col-start-2 md:justify-start">

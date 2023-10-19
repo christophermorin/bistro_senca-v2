@@ -1,6 +1,12 @@
+"use client"
+import {useEffect} from "react";
 import Image from "next/image";
+import { scrollBehavior } from "@/utils/scrollBehavior";
 
 export function NavBar() {
+   useEffect(() => {
+    scrollBehavior()
+  }, []);
 
   return (
     <div className="h-[42px] bg-black text-white w-full fixed z-30">
@@ -17,11 +23,11 @@ export function NavBar() {
       <nav className="sm:justify-between sm:items-center sm:px-9 sm:w-full hidden sm:flex sm:h-full">
         <p className="font-bold text-2xl">Bistro Sena</p>
         <ul className="flex uppercase font-semibold gap-4 [&>*]:cursor-pointer">
-          <li>Home</li>
-          <li>About</li>
-          <li>Specials</li>
-          <li>Reviews</li>
-          <li>Contact</li>
+          <li id="homeLink">Home</li>
+          <li id="aboutLink">About</li>
+          <li id="specialsLink">Specials</li>
+          <li id="reviewsLink">Reviews</li>
+          <li id="contactLink">Contact</li>
         </ul>
       </nav>
     </div>
