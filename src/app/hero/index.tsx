@@ -14,7 +14,7 @@ export function Hero() {
             </h1>
           </div>
           <div className="self-end md:w-3/4 md:mt-10">
-            <p className="text-white italic font-thin text-center mt-12 md:text-4xl md:text-start md:font-extralight md:mt-0">
+            <p className="text-white italic text-center mt-12 md:text-4xl md:text-start md:font-extralight md:mt-0">
               Embrace the essence of life at Bistro Senca, where global flavors
               unite in culinary perfection. Come, relax, and let the magic of
               food and friendship ignite your happiness. Taste the world.

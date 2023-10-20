@@ -7,13 +7,13 @@ export function About() {
     >
       <section className="md:col-span-2 md:col-start-2  md:py-32">
         <div className="grid justify-center mt-11 lg:mt-0 md:col-span-3 md:col-start-2 md:justify-start">
-          <div className="w-[330px] h-14 bg-black rounded-md shadow-md shadow-black md:w-full md:h-24 px-8">
+          <div className="w-[330px] h-14 bg-black rounded-md shadow-md shadow-black md:w-full md:h-24 md:px-8">
             <h1 className="flex justify-center items-center h-full text-white uppercase text-xl font-medium md:text-3xl">
               About Bistro Senca
             </h1>
           </div>
         </div>
-        <div className="grid grid-cols-1 bg-black/80 text-white italic font-thin gap-4 px-9 py-11 mt-28 mb-11 shadow-lg shadow-black md:mb-0 md:col-span-2  md:text-2xl">
+        <div className="grid grid-cols-1 bg-black/80 text-white gap-4 px-9 py-11 mt-28 mb-11 shadow-lg shadow-black md:mb-0 md:col-span-2  md:text-2xl">
           <p>
             Welcome to Bistro Senca, a place dedicated to the pure joy of life.
             Our culinary inspiration knows no borders, bringing together global
