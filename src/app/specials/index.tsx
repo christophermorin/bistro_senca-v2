@@ -7,7 +7,7 @@ import { specials } from "@/data";
 
 export function Specials() {
   return (
-    <div
+    <section
       data-testid="specials"
       id="specialsSection"
       className="grid grid-cols-1 gap-x-6 gap-y-12 bg-black p-6 md:p-24 lg:p-32 md:grid-cols-2 lg:grid-cols-3"
@@ -20,6 +20,6 @@ export function Specials() {
           </SpecialsCard>
         );
       })}
-    </div>
+    </section>
   );
 }

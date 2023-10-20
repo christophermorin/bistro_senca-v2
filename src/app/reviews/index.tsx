@@ -9,7 +9,7 @@ import { reviews } from "@/data";
 
 export function Reviews() {
   return (
-    <div
+    <section
       data-testid="reviews"
       id="reviewsSection"
       className="relative grid grid-cols-1 justify-items-center bg-reviews bg-no-repeat bg-cover bg-center gap-14 p-6 md:p-24 lg:p-32 md:grid-cols-1 md:bg-reviewsLg md:gap-10 lg:grid-cols-3"
@@ -24,6 +24,6 @@ export function Reviews() {
           </ReviewCard>
         );
       })}
-    </div>
+    </section>
   );
 }

@@ -7,7 +7,7 @@ export function Contact() {
       className="flex md:flex-row md:flex-wrap flex-col items-center justify-center gap-10 p-6 md:py-24 md:px-24 lg:px-32"
     >
       <section className="grid grid-cols-2 md:grid-cols-1">
-        <div>
+        <section>
           <div className="bg-black h-full p-2 rounded-md shadow-md shadow-black md:px-12">
             <div className="flex flex-col h-full text-white">
               <h4 className="font-bold uppercase md:text-center md:text-xl">
@@ -61,7 +61,7 @@ export function Contact() {
               </ul>
             </div>
           </div>
-        </div>
+        </section>
         <section className="grid grid-cols-1 gap-2 h-full px-5 py-8 text-black md:grid-cols-3 md:justify-between md:border-b border-black">
           <div className="flex flex-col gap-2 h-1/2">
             <div className="grid grid-cols-3">

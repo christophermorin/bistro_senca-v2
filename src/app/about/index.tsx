@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <div
+    <section
       data-testid="about"
       id="aboutSection"
       className="grid grid-cols-1 bg-about bg-no-repeat bg-cover bg-center md:bg-aboutLg md:grid-cols-6"
@@ -41,6 +41,6 @@ export function About() {
           </div>
         </div>
       </section>
-    </div>
+    </section>
   );
 }
