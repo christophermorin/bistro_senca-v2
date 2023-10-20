@@ -62,7 +62,7 @@ export const reviews: Review[] = [
     id: 2,
     title: "Old friends...",
     content:
-      "What a delightful find! Bistro Senca felt like a warm hug in the form of a restaurant. The staff here are like old friends, always ready with a smile and a recommendation. I can't wait to make Bistro Senca my regular spot for special nights out.",
+      "What a delightful find! Bistro Senca felt like a warm hug in the form of a restaurant. The staff here are like old friends, always ready with a smile and a recommendation. I can&apos;t wait to make Bistro Senca my regular spot for special nights out.",
     author: "Nuaght Marvin",
   },
   {

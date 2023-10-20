@@ -20,7 +20,7 @@ export function About() {
             flavors in perfect harmony.
           </p>
           <p>
-            Whether you're gathering with friends or seeking a serene escape,
+            Whether you&apos;re gathering with friends or seeking a serene escape,
             Bistro Senca invites you to unwind and experience the essence of
             happiness.
           </p>
