@@ -7,8 +7,8 @@ export function About() {
     >
       <section className="md:col-span-2 md:col-start-2  md:py-32">
         <div className="grid justify-center mt-11 lg:mt-0 md:col-span-3 md:col-start-2 md:justify-start">
-          <div className="w-[320px] h-14 bg-black rounded-md shadow-md shadow-black  md:w-full md:h-24 md:px-20">
-            <h1 className="flex justify-center items-center h-full text-white uppercase text-xl font-medium md:text-4xl">
+          <div className="w-[330px] h-14 bg-black rounded-md shadow-md shadow-black md:w-full md:h-24 px-8">
+            <h1 className="flex justify-center items-center h-full text-white uppercase text-xl font-medium md:text-3xl">
               About Bistro Senca
             </h1>
           </div>

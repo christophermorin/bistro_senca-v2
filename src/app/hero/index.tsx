@@ -22,10 +22,10 @@ export function Hero() {
           </div>
         </section>
         <section className="grid grid-cols-1 grid-rows-4 gap-5 justify-items-center z-20 md:col-start-5">
-          <div className="flex justify-center items-center w-24 h-12 bg-black text-white font-semibold uppercase rounded-md shadow-md shadow-black ring-1 ring-white md:h-24 md:w-64 md:text-xl md:row-start-3 cursor-pointer">
+          <div className="flex justify-center items-center w-24 h-12 bg-black text-white font-semibold uppercase rounded-md shadow-md shadow-black ring-1 ring-white md:h-20 md:w-56 md:text-xl md:row-start-3 cursor-pointer">
             Menu
           </div>
-          <div className="flex justify-center items-center w-44 h-12 bg-black text-white font-semibold uppercase rounded-md shadow-md shadow-black ring-1 ring-white md:h-24 md:w-80 md:text-xl md:row-start-4 cursor-pointer">
+          <div className="flex justify-center items-center w-44 h-12 bg-black text-white font-semibold uppercase rounded-md shadow-md shadow-black ring-1 ring-white md:h-20 md:w-72 md:text-xl md:row-start-4 cursor-pointer">
             Book a Table
           </div>
         </section>

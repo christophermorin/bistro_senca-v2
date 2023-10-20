@@ -105,7 +105,7 @@ export function Contact() {
           Book your table now and embark on a culinary adventure that awaits
           your presence!
         </p>
-        <div className="flex justify-center items-center w-44 h-12 bg-black text-white font-semibold uppercase rounded-md shadow-md shadow-black md:h-24 md:w-80 md:text-xl cursor-pointer">
+        <div className="flex justify-center items-center w-44 h-12 bg-black text-white font-semibold uppercase rounded-md shadow-md shadow-black md:h-20 md:w-72 md:text-xl cursor-pointer">
           Book A Table
         </div>
       </section>
