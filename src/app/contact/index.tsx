@@ -64,34 +64,34 @@ export function Contact() {
         </section>
         <section className="grid grid-cols-1 gap-2 h-full px-5 py-8 text-black md:grid-cols-3 md:justify-between md:border-b border-black">
           <div className="flex flex-col gap-2 h-1/2">
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 gap-5">
               <p className="font-semibold">Mon</p>
               <p>7am</p>
               <p>8am</p>
             </div>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 gap-5">
               <p className="font-semibold">Tue</p>
               <p>7am</p>
               <p>8am</p>
             </div>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 gap-5">
               <p className="font-semibold">Wed</p>
               <p>7am</p>
               <p>8am</p>
             </div>
           </div>
           <div className="flex flex-col gap-2 h-1/2 md:col-start-3">
-            <div className="grid grid-cols-3 md:justify-items-end">
+            <div className="grid grid-cols-3 gap-5 md:justify-items-end">
               <p className="font-semibold">Thu</p>
               <p>7am</p>
               <p>8am</p>
             </div>
-            <div className="grid grid-cols-3 md:justify-items-end">
+            <div className="grid grid-cols-3 gap-5 md:justify-items-end">
               <p className="font-semibold">Fri</p>
               <p>7am</p>
               <p>8am</p>
             </div>
-            <div className="grid grid-cols-3 md:justify-items-end">
+            <div className="grid grid-cols-3 gap-5 md:justify-items-end">
               <p className="font-semibold">Sun</p>
               <p>7am</p>
               <p>8am</p>

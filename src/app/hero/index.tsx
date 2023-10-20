@@ -8,7 +8,7 @@ export function Hero() {
       <div className="bg-black/60 absolute h-full blur-3xl w-full z-10"></div>
       <div className="grid grid-cols-1 h-full items-center z-20 md:grid-cols-6">
         <section className="grid grid-cols-1 p-9 justify-items-center z-20 md:col-start-2 md:col-end-5 md:p-0 md:justify-items-start">
-          <div className="w-80 h-14 bg-black rounded-md md:w-96 md:h-32 md:bg-transparent">
+          <div className="w-[320px] h-14 bg-black rounded-md md:w-96 md:h-32 md:bg-transparent">
             <h1 className="flex justify-center items-center h-full text-white text-3xl font-medium uppercase md:text-5xl md:justify-start">
               Bistro Senca
             </h1>
